@@ -1,0 +1,42 @@
+.place {
+  margin-bottom: 0px;
+  padding-top: 10px;
+  position: relative;
+}
+.place .content span {
+  color: var(--main);
+}
+.place .row {
+  flex-direction: row;
+}
+.place .box {
+  position: relative;
+  overflow: hidden;
+}
+.place .box img {
+  -o-object-fit: cover;
+  object-fit: cover;
+  height: 350px;
+  width: 100%;
+  overflow: hidden;
+}
+.place .box:hover img {
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.place .box_content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff !important;
+  text-align: center;
+}
+.place .box_content h6 {
+  font-size: 40px;
+  font-weight: 600;
+}
+.place .row {
+  margin: 50px auto;
+}

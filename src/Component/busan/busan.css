@@ -1,0 +1,28 @@
+.busan {
+  margin-bottom: 150px;
+}
+.busan .box {
+  border: 1p solid #000;
+  border-top: none;
+  position: relative;
+  overflow: hidden;
+}
+.busan .box img {
+  -o-object-fit: cover;
+  object-fit: cover;
+  cursor: pointer;
+  height: 270px;
+  width: 100%;
+}
+.busan .box:hover img {
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.busan .box_content {
+  padding: 20px;
+}
+.busan .box_content h4 {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}

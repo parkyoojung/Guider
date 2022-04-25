@@ -1,0 +1,28 @@
+.second {
+  margin-bottom: 0px;
+  position: relative;
+}
+.second img {
+  height: 60vh;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.second .Content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+}
+.second .Content h5 {
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding-bottom: 10%;
+}
+.second .Content p {
+  font-size: 20px;
+  font-weight: 600;
+}
